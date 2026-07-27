@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
 :root{
     --branco: white;
     --cor-de-fundo: #618764;
     --fundo-de-senha: #9CB080;
     --fundo-texto: #2B5748;
     --borda: #273338;
-    --Serif: DM serif display, serif
+    --fonte: DM serif display, serif
+}
+*{
+    font-weight:400;
+}
+body{
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--roboto);
 }
